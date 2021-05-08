@@ -4,12 +4,13 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
 
-  console.log(require('./assets/favicon.png'))
-  // returns 4
-
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/favicon.png')} />
+      <Image source={{
+        width: 200,
+        height: 300,
+        uri: "https://picsum.photos/200/300",
+      }} />
       <Text>Hello React Native</Text>
     </View >
   );
