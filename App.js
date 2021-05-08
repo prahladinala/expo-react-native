@@ -4,6 +4,9 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
 
+  console.log(require('./assets/favicon.png'))
+  // returns 4
+
   return (
     <View style={styles.container}>
       <Image source={require('./assets/favicon.png')} />
