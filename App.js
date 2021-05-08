@@ -5,7 +5,7 @@ import { Button, StyleSheet, View, Alert } from 'react-native';
 export default function App() {
 
   return (
-    <View style={containerStyles}>
+    <View style={[styles.container, styles.text]}>
       <Button color="orange"
         title="Click Me"
         onPress={() => Alert.prompt("title", "Description", (text) => console.log(text))} />
@@ -22,4 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    backgroundColor: 'blue',
+  }
 });
