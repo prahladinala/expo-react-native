@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Button title="Click Me" onPress={() => { console.log("Button Clicked") }} />
+      <Button color="orange" title="Click Me" onPress={() => { console.log("Button Clicked") }} />
     </View >
   );
 }
