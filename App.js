@@ -5,13 +5,15 @@ import { Button, StyleSheet, View, Alert } from 'react-native';
 export default function App() {
 
   return (
-    <View style={{ backgroundColor: "orange" }}>
+    <View style={containerStyles}>
       <Button color="orange"
         title="Click Me"
         onPress={() => Alert.prompt("title", "Description", (text) => console.log(text))} />
     </View >
   );
 }
+
+const containerStyles = { backgroundColor: "orange" }
 
 const styles = StyleSheet.create({
   container: {
