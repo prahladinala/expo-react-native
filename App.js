@@ -6,11 +6,13 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Image source={{
-        width: 200,
-        height: 300,
-        uri: "https://picsum.photos/200/300",
-      }} />
+      <Image
+        blurRadius={10}
+        source={{
+          width: 200,
+          height: 300,
+          uri: "https://picsum.photos/200/300",
+        }} />
       <Text>Hello React Native</Text>
     </View >
   );
