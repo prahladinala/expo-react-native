@@ -1,16 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image, TouchableNativeFeedback } from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <TouchableNativeFeedback onPress={() => { console.log("Image Pressed") }}>
-        <View style={{ width: 200, height: 70, backgroundColor: "dodgerblue" }}>
-        </View>
-      </TouchableNativeFeedback>
-      <Text>Hello React Native</Text>
+      <Button title="Click Me" onPress={() => { console.log("Button Clicked") }} />
     </View >
   );
 }
