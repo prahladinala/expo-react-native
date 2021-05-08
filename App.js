@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Button color="orange"
         title="Click Me"
-        onPress={() => Alert.alert("My Title", "My Message", [{ text: "Yes", onPress: () => console.log("YES") }, { text: "No", onPress: () => console.log("NO") }])} />
+        onPress={() => Alert.prompt("title", "Description", (text) => console.log(text))} />
     </View >
   );
 }
