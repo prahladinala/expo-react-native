@@ -5,8 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text numberOfLines={1} onPress={() => { alert("Text Pressed") }}>Hello React Native - Long Text to check Number of Lines numberOfLines={1}</Text>
     </View>
   );
 }
