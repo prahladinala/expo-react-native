@@ -8,6 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Image
         blurRadius={10}
+        fadeDuration={1000}
         source={{
           width: 200,
           height: 300,
