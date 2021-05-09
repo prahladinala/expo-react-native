@@ -11,9 +11,13 @@ export default function App() {
       alignItems: 'center', //secondary axis
     }}>
       {/* CHILDREN */}
-      <View style={{ backgroundColor: "dodgerblue", width: 100, alignSelf: "stretch" }} />
-      <View style={{ backgroundColor: "gold", width: 100, height: 200 }} />
+      <View style={{ backgroundColor: "dodgerblue", width: 100, height: 100 }} />
+      <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
       <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
+      <View style={{ backgroundColor: "grey", width: 100, height: 100 }} />
+      <View style={{ backgroundColor: "greenyellow", width: 100, height: 100 }} />
+
+
     </View>
     // Justify Content => Aligns items center of main/primary axis (Horizontal axis if flexDirection is row)
     // Justify Content => Aligns items center of main/primary axis (Vertical axis if flexDirection is column)
