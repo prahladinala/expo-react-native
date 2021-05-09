@@ -4,7 +4,7 @@ import { View } from 'react-native';
 export default function App() {
   return (
     // PARENT
-    <View style={{ backgroundColor: "#fff", flex: 1, flexDirection: "row", justifyContent: "center", alignItems: 'baseline' }}>
+    <View style={{ backgroundColor: "#fff", flex: 1, flexDirection: "row", justifyContent: "center", alignItems: 'flex-end' }}>
       {/* CHILDREN */}
       <View style={{ backgroundColor: "dodgerblue", width: 100, height: 300 }} />
       <View style={{ backgroundColor: "gold", width: 100, height: 200 }} />
