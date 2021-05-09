@@ -9,7 +9,7 @@ export default function App() {
       flexDirection: "row", //horizantal
       justifyContent: "center", //main axis
       alignItems: 'center', //secondary axis
-      flexWrap: "nowrap"
+      flexWrap: "wrap"
     }}>
       {/* CHILDREN */}
       <View style={{ backgroundColor: "dodgerblue", width: 100, height: 100 }} />
