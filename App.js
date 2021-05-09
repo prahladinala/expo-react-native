@@ -11,7 +11,7 @@ export default function App() {
       alignItems: 'center', //secondary axis
     }}>
       {/* CHILDREN */}
-      <View style={{ backgroundColor: "dodgerblue", width: 100, height: 300, alignSelf: "auto" }} />
+      <View style={{ backgroundColor: "dodgerblue", width: 100, height: 300, alignSelf: "baseline" }} />
       <View style={{ backgroundColor: "gold", width: 100, height: 200 }} />
       <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
     </View>
