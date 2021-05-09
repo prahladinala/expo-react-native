@@ -9,6 +9,7 @@ export default function App() {
       flexDirection: "row", //horizantal
       justifyContent: "center", //main axis
       alignItems: 'center', //secondary axis
+      alignContent: "center",
       flexWrap: "wrap"
     }}>
       {/* CHILDREN */}
@@ -24,6 +25,8 @@ export default function App() {
     // Justify Content => Aligns items center of main/primary axis (Vertical axis if flexDirection is column)
 
     // alignItems => Aligns items center of secondary axis
+
+    //alignContent => Assigned to Container (Parent) , Applies to the entire container
 
     //alignItems => Assigned to Container (Parent)
     //alignSelf => Assigned to Item (Child)
