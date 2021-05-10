@@ -14,19 +14,20 @@ export default function App() {
       {/* CHILDREN */}
       <View style={{
         backgroundColor: "dodgerblue",
-        width: 400,
-        flexShrink: 1,
+        width: 100,
         height: 100
       }} />
       <View style={{
         backgroundColor: "gold",
         width: 100,
         height: 100,
+        top: 20
       }} />
       <View style={{
         backgroundColor: "tomato",
         width: 100,
-        height: 100
+        height: 100,
+        top: -20
       }} />
 
     </View>
