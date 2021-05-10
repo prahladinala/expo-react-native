@@ -15,9 +15,8 @@ export default function App() {
       {/* CHILDREN */}
       <View style={{
         backgroundColor: "dodgerblue",
-        flexBasis: 100, // width or height
-        flexGrow: 1, // takes the available remaining space
-        // width: 100,
+        width: 400,
+        // flex: -1, or flexShrink: 1;
         height: 100
       }} />
       <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
