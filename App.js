@@ -13,12 +13,14 @@ export default function App() {
       flexWrap: "wrap"
     }}>
       {/* CHILDREN */}
-      <View style={{ backgroundColor: "dodgerblue", width: 100, height: 300 }} />
-      <View style={{ backgroundColor: "gold", width: 100, height: 200 }} />
+      <View style={{
+        backgroundColor: "dodgerblue",
+        flexBasis: 100, // width or height
+        // width: 100,
+        height: 100
+      }} />
+      <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
       <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
-      <View style={{ backgroundColor: "grey", width: 100, height: 100 }} />
-      <View style={{ backgroundColor: "greenyellow", width: 100, height: 100 }} />
-
 
     </View>
     // Justify Content => Aligns items center of main/primary axis (Horizontal axis if flexDirection is row)
@@ -30,5 +32,9 @@ export default function App() {
 
     //alignItems => Assigned to Container (Parent)
     //alignSelf => Assigned to Item (Child)
+
+    //flexBasis === width if primary axis is horizontal
+    //flexBasis === height if primary axis is vertical
+
   );
 }
