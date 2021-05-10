@@ -21,7 +21,8 @@ export default function App() {
         backgroundColor: "gold",
         width: 100,
         height: 100,
-        right: 20
+        right: 20,
+        position: "relative"
       }} />
       <View style={{
         backgroundColor: "tomato",
