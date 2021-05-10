@@ -21,13 +21,13 @@ export default function App() {
         backgroundColor: "gold",
         width: 100,
         height: 100,
-        left: 20
+        right: 20
       }} />
       <View style={{
         backgroundColor: "tomato",
         width: 100,
         height: 100,
-        left: -20
+        right: -20
       }} />
 
     </View>
