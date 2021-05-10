@@ -10,17 +10,24 @@ export default function App() {
       justifyContent: "center", //main axis
       alignItems: 'center', //secondary axis
       alignContent: "center",
-      flexWrap: "wrap"
     }}>
       {/* CHILDREN */}
       <View style={{
         backgroundColor: "dodgerblue",
         width: 400,
-        // flex: -1, or flexShrink: 1;
+        flexShrink: 1,
         height: 100
       }} />
-      <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
-      <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
+      <View style={{
+        backgroundColor: "gold",
+        width: 100,
+        height: 100,
+      }} />
+      <View style={{
+        backgroundColor: "tomato",
+        width: 100,
+        height: 100
+      }} />
 
     </View>
     // Justify Content => Aligns items center of main/primary axis (Horizontal axis if flexDirection is row)
