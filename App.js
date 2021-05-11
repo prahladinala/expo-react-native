@@ -21,7 +21,10 @@ export default function App() {
         //how dark our shadow should be => shadowOpacity(0 => lighter to 1 => darker values)
         shadowOpacity: 1,
         //make shadows softer => shadowRadius
-        shadowRadius: 10
+        shadowRadius: 10,
+
+        //android
+        elevation: 20,
 
       }}></View>
     </View>
