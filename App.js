@@ -13,19 +13,22 @@ export default function App() {
         backgroundColor: "dodgerblue",
         width: 100,
         height: 100,
-        //shadows(different for ios and android)
-        //ios
-        shadowColor: "grey",
-        //angle or position of shadow => shadowOffset
-        shadowOffset: { width: 10, height: 10 },
-        //how dark our shadow should be => shadowOpacity(0 => lighter to 1 => darker values)
-        shadowOpacity: 1,
-        //make shadows softer => shadowRadius
-        shadowRadius: 10,
+        padding: 20,
+        paddingHorizontal: 10,
+        paddingVertical: 20,
+        paddingLeft: 30
+      }}><View style={{
+        backgroundColor: "gold",
+        width: 50,
+        height: 50,
+      }}></View>
 
-        //android
-        elevation: 20,
-
+      </View>
+      <View style={{
+        backgroundColor: "tomato",
+        width: 100,
+        height: 100,
+        margin: 20
       }}></View>
     </View>
   );
