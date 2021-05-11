@@ -12,7 +12,7 @@ export default function App() {
       alignItems: "center",
       fontSize: 10 // not supported to view component (No errors)
     }}>
-      <MaterialCommunityIcons name="email" size={200} color="dodgerblue" />
+      <AppText>I Love React Native !</AppText>
     </View >
   );
 }
