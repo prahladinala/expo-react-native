@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 export default function App() {
   return (
@@ -7,29 +7,25 @@ export default function App() {
     <View style={{
       flex: 1,
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      fontSize: 10 // not supported to view component (No errors)
     }}>
-      <View style={{
-        backgroundColor: "dodgerblue",
-        width: 100,
-        height: 100,
-        padding: 20,
-        paddingHorizontal: 10,
-        paddingVertical: 20,
-        paddingLeft: 30
-      }}><View style={{
-        backgroundColor: "gold",
-        width: 50,
-        height: 50,
-      }}></View>
-
-      </View>
-      <View style={{
-        backgroundColor: "tomato",
-        width: 100,
-        height: 100,
-        margin: 20
-      }}></View>
-    </View>
+      <Text style={{
+        //ios
+        // fontFamily: "Courier",
+        //android
+        // fontFamily: "Roboto",
+        fontSize: 30,
+        fontStyle: "italic",
+        fontWeight: "600", // "bold", "900",..., "600"
+        color: "tomato",
+        textTransform: "capitalize",
+        // textDecorationLine: "line-through",
+        textAlign: "center",
+        lineHeight: 30,
+      }}>I love React Native ! This is my first React Native App! Here is some more text</Text>
+    </View >
   );
 }
+//fontFamily => In real time ios and android have different fonts,
+//              so we need to use platform API to detect the current platform and load based on that platform
