@@ -17,7 +17,8 @@ export default function App() {
         borderWidth: 10,
         borderColor: "royalblue",
         borderRadius: 10,
-        borderTopWidth: 20
+        borderTopWidth: 20,
+        borderTopLeftRadius: 50
       }}></View>
     </View>
   );
