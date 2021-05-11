@@ -10,7 +10,6 @@ export default function App() {
       flex: 1,
       justifyContent: "center",
       alignItems: "center",
-      fontSize: 10 // not supported to view component (No errors)
     }}>
       <AppText>I Love React Native !</AppText>
     </View >
