@@ -5,45 +5,19 @@ export default function App() {
   return (
     // PARENT
     <View style={{
-      backgroundColor: "#fff", flex: 1,
-      flexDirection: "row", //horizantal
-      justifyContent: "center", //main axis
-      alignItems: 'center', //secondary axis
-      alignContent: "center",
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center"
     }}>
-      {/* CHILDREN */}
       <View style={{
         backgroundColor: "dodgerblue",
         width: 100,
-        height: 100
-      }} />
-      <View style={{
-        backgroundColor: "gold",
-        width: 100,
         height: 100,
-        top: 20,
-        left: 20,
-        position: "absolute"
-      }} />
-      <View style={{
-        backgroundColor: "tomato",
-        width: 100,
-        height: 100,
-      }} />
-
+        //borders
+        borderWidth: 10,
+        borderColor: "royalblue",
+        borderRadius: 10
+      }}></View>
     </View>
-    // Justify Content => Aligns items center of main/primary axis (Horizontal axis if flexDirection is row)
-    // Justify Content => Aligns items center of main/primary axis (Vertical axis if flexDirection is column)
-
-    // alignItems => Aligns items center of secondary axis
-
-    //alignContent => Assigned to Container (Parent) , Applies to the entire container
-
-    //alignItems => Assigned to Container (Parent)
-    //alignSelf => Assigned to Item (Child)
-
-    //flexBasis === width if primary axis is horizontal
-    //flexBasis === height if primary axis is vertical
-
   );
 }
