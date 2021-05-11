@@ -16,5 +16,3 @@ export default function App() {
     </View >
   );
 }
-//fontFamily => In real time ios and android have different fonts,
-//              so we need to use platform API to detect the current platform and load based on that platform
